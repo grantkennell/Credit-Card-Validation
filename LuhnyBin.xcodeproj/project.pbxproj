@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A59FCE1B147B7E9F00E6CC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */; };
+		A59FCE1E147B7E9F00E6CC92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A59FCE1D147B7E9F00E6CC92 /* main.m */; };
+		A59FCE22147B7E9F00E6CC92 /* LuhnyBin.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A59FCE21147B7E9F00E6CC92 /* LuhnyBin.1 */; };
+		A5FA5F56147C2D1B00350BB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F55147C2D1B00350BB3 /* UIKit.framework */; };
+		A5FA5F57147C2D1B00350BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */; };
+		A5FA5F59147C2D1B00350BB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F58147C2D1B00350BB3 /* CoreGraphics.framework */; };
+		A5FA5F73147C2D1C00350BB3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F72147C2D1C00350BB3 /* SenTestingKit.framework */; };
+		A5FA5F74147C2D1C00350BB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F55147C2D1B00350BB3 /* UIKit.framework */; };
+		A5FA5F75147C2D1C00350BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */; };
+		E0509C9A147C6373001AA29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0509C95147C6373001AA29A /* InfoPlist.strings */; };
+		E0509C9B147C6373001AA29A /* Luhn_iOSTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0509C97147C6373001AA29A /* Luhn_iOSTests-Info.plist */; };
+		E0509C9C147C6373001AA29A /* Luhn_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509C99147C6373001AA29A /* Luhn_iOSTests.m */; };
+		E0509CB2147C6387001AA29A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509C9F147C6387001AA29A /* AppDelegate.m */; };
+		E0509CB3147C6387001AA29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA0147C6387001AA29A /* InfoPlist.strings */; };
+		E0509CB4147C6387001AA29A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA2147C6387001AA29A /* MainStoryboard.storyboard */; };
+		E0509CB5147C6387001AA29A /* americanexpress.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA5147C6387001AA29A /* americanexpress.png */; };
+		E0509CB6147C6387001AA29A /* americanexpress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA6147C6387001AA29A /* americanexpress@2x.png */; };
+		E0509CB7147C6387001AA29A /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA7147C6387001AA29A /* discover.png */; };
+		E0509CB8147C6387001AA29A /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA8147C6387001AA29A /* discover@2x.png */; };
+		E0509CB9147C6387001AA29A /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA9147C6387001AA29A /* mastercard.png */; };
+		E0509CBA147C6387001AA29A /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAA147C6387001AA29A /* mastercard@2x.png */; };
+		E0509CBB147C6387001AA29A /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAB147C6387001AA29A /* visa.png */; };
+		E0509CBC147C6387001AA29A /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAC147C6387001AA29A /* visa@2x.png */; };
+		E0509CBD147C6387001AA29A /* Luhn_iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAD147C6387001AA29A /* Luhn_iOS-Info.plist */; };
+		E0509CBE147C6387001AA29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CAF147C6387001AA29A /* main.m */; };
+		E0509CBF147C6387001AA29A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CB1147C6387001AA29A /* ViewController.m */; };
+		E0509CC2147C63B4001AA29A /* CreditCardValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CC1147C63B4001AA29A /* CreditCardValidation.m */; };
+		E0509CC3147C63B4001AA29A /* CreditCardValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CC1147C63B4001AA29A /* CreditCardValidation.m */; };
+		E0509CC4147C63B4001AA29A /* CreditCardValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CC1147C63B4001AA29A /* CreditCardValidation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FA5F76147C2D1C00350BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A59FCE0D147B7E9F00E6CC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FA5F52147C2D1B00350BB3;
+			remoteInfo = Luhn_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A59FCE14147B7E9F00E6CC92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A59FCE22147B7E9F00E6CC92 /* LuhnyBin.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A59FCE16147B7E9F00E6CC92 /* LuhnyBin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LuhnyBin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A59FCE1D147B7E9F00E6CC92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A59FCE20147B7E9F00E6CC92 /* LuhnyBin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuhnyBin-Prefix.pch"; sourceTree = "<group>"; };
+		A59FCE21147B7E9F00E6CC92 /* LuhnyBin.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LuhnyBin.1; sourceTree = "<group>"; };
+		A5FA5F53147C2D1B00350BB3 /* Luhn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luhn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FA5F55147C2D1B00350BB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5FA5F58147C2D1B00350BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A5FA5F71147C2D1C00350BB3 /* Luhn_iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luhn_iOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FA5F72147C2D1C00350BB3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0509C96147C6373001AA29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0509C97147C6373001AA29A /* Luhn_iOSTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Luhn_iOSTests-Info.plist"; sourceTree = "<group>"; };
+		E0509C98147C6373001AA29A /* Luhn_iOSTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Luhn_iOSTests.h; sourceTree = "<group>"; };
+		E0509C99147C6373001AA29A /* Luhn_iOSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Luhn_iOSTests.m; sourceTree = "<group>"; };
+		E0509C9E147C6387001AA29A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0509C9F147C6387001AA29A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0509CA1147C6387001AA29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0509CA3147C6387001AA29A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E0509CA5147C6387001AA29A /* americanexpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = americanexpress.png; sourceTree = "<group>"; };
+		E0509CA6147C6387001AA29A /* americanexpress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "americanexpress@2x.png"; sourceTree = "<group>"; };
+		E0509CA7147C6387001AA29A /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
+		E0509CA8147C6387001AA29A /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
+		E0509CA9147C6387001AA29A /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
+		E0509CAA147C6387001AA29A /* mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@2x.png"; sourceTree = "<group>"; };
+		E0509CAB147C6387001AA29A /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
+		E0509CAC147C6387001AA29A /* visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@2x.png"; sourceTree = "<group>"; };
+		E0509CAD147C6387001AA29A /* Luhn_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Luhn_iOS-Info.plist"; sourceTree = "<group>"; };
+		E0509CAE147C6387001AA29A /* Luhn_iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luhn_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		E0509CAF147C6387001AA29A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0509CB0147C6387001AA29A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0509CB1147C6387001AA29A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0509CC0147C63B4001AA29A /* CreditCardValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardValidation.h; sourceTree = "<group>"; };
+		E0509CC1147C63B4001AA29A /* CreditCardValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardValidation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A59FCE13147B7E9F00E6CC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59FCE1B147B7E9F00E6CC92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA5F50147C2D1B00350BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FA5F56147C2D1B00350BB3 /* UIKit.framework in Frameworks */,
+				A5FA5F57147C2D1B00350BB3 /* Foundation.framework in Frameworks */,
+				A5FA5F59147C2D1B00350BB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA5F6D147C2D1C00350BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FA5F73147C2D1C00350BB3 /* SenTestingKit.framework in Frameworks */,
+				A5FA5F74147C2D1C00350BB3 /* UIKit.framework in Frameworks */,
+				A5FA5F75147C2D1C00350BB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A59FCE0B147B7E9F00E6CC92 = {
+			isa = PBXGroup;
+			children = (
+				E0509CC0147C63B4001AA29A /* CreditCardValidation.h */,
+				E0509CC1147C63B4001AA29A /* CreditCardValidation.m */,
+				A59FCE1C147B7E9F00E6CC92 /* Mac OS X (Console) */,
+				E0509C9D147C6387001AA29A /* iOS */,
+				E0509C94147C6373001AA29A /* iOS_Unit_Tests */,
+				A59FCE19147B7E9F00E6CC92 /* Frameworks */,
+				A59FCE17147B7E9F00E6CC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A59FCE17147B7E9F00E6CC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59FCE16147B7E9F00E6CC92 /* LuhnyBin */,
+				A5FA5F53147C2D1B00350BB3 /* Luhn_iOS.app */,
+				A5FA5F71147C2D1C00350BB3 /* Luhn_iOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A59FCE19147B7E9F00E6CC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */,
+				A5FA5F55147C2D1B00350BB3 /* UIKit.framework */,
+				A5FA5F58147C2D1B00350BB3 /* CoreGraphics.framework */,
+				A5FA5F72147C2D1C00350BB3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A59FCE1C147B7E9F00E6CC92 /* Mac OS X (Console) */ = {
+			isa = PBXGroup;
+			children = (
+				A59FCE1D147B7E9F00E6CC92 /* main.m */,
+				A59FCE21147B7E9F00E6CC92 /* LuhnyBin.1 */,
+				A59FCE1F147B7E9F00E6CC92 /* Supporting Files */,
+			);
+			name = "Mac OS X (Console)";
+			path = LuhnyBin;
+			sourceTree = "<group>";
+		};
+		A59FCE1F147B7E9F00E6CC92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59FCE20147B7E9F00E6CC92 /* LuhnyBin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0509C94147C6373001AA29A /* iOS_Unit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0509C95147C6373001AA29A /* InfoPlist.strings */,
+				E0509C97147C6373001AA29A /* Luhn_iOSTests-Info.plist */,
+				E0509C98147C6373001AA29A /* Luhn_iOSTests.h */,
+				E0509C99147C6373001AA29A /* Luhn_iOSTests.m */,
+			);
+			path = iOS_Unit_Tests;
+			sourceTree = "<group>";
+		};
+		E0509C9D147C6387001AA29A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0509C9E147C6387001AA29A /* AppDelegate.h */,
+				E0509C9F147C6387001AA29A /* AppDelegate.m */,
+				E0509CA0147C6387001AA29A /* InfoPlist.strings */,
+				E0509CA2147C6387001AA29A /* MainStoryboard.storyboard */,
+				E0509CA4147C6387001AA29A /* images */,
+				E0509CAD147C6387001AA29A /* Luhn_iOS-Info.plist */,
+				E0509CAE147C6387001AA29A /* Luhn_iOS-Prefix.pch */,
+				E0509CAF147C6387001AA29A /* main.m */,
+				E0509CB0147C6387001AA29A /* ViewController.h */,
+				E0509CB1147C6387001AA29A /* ViewController.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E0509CA4147C6387001AA29A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E0509CA5147C6387001AA29A /* americanexpress.png */,
+				E0509CA6147C6387001AA29A /* americanexpress@2x.png */,
+				E0509CA7147C6387001AA29A /* discover.png */,
+				E0509CA8147C6387001AA29A /* discover@2x.png */,
+				E0509CA9147C6387001AA29A /* mastercard.png */,
+				E0509CAA147C6387001AA29A /* mastercard@2x.png */,
+				E0509CAB147C6387001AA29A /* visa.png */,
+				E0509CAC147C6387001AA29A /* visa@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A59FCE15147B7E9F00E6CC92 /* LuhnyBin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59FCE25147B7E9F00E6CC92 /* Build configuration list for PBXNativeTarget "LuhnyBin" */;
+			buildPhases = (
+				A59FCE12147B7E9F00E6CC92 /* Sources */,
+				A59FCE13147B7E9F00E6CC92 /* Frameworks */,
+				A59FCE14147B7E9F00E6CC92 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuhnyBin;
+			productName = LuhnyBin;
+			productReference = A59FCE16147B7E9F00E6CC92 /* LuhnyBin */;
+			productType = "com.apple.product-type.tool";
+		};
+		A5FA5F52147C2D1B00350BB3 /* Luhn_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FA5F85147C2D1C00350BB3 /* Build configuration list for PBXNativeTarget "Luhn_iOS" */;
+			buildPhases = (
+				A5FA5F4F147C2D1B00350BB3 /* Sources */,
+				A5FA5F50147C2D1B00350BB3 /* Frameworks */,
+				A5FA5F51147C2D1B00350BB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luhn_iOS;
+			productName = Luhn_iOS;
+			productReference = A5FA5F53147C2D1B00350BB3 /* Luhn_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5FA5F70147C2D1C00350BB3 /* Luhn_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FA5F86147C2D1C00350BB3 /* Build configuration list for PBXNativeTarget "Luhn_iOSTests" */;
+			buildPhases = (
+				A5FA5F6C147C2D1C00350BB3 /* Sources */,
+				A5FA5F6D147C2D1C00350BB3 /* Frameworks */,
+				A5FA5F6E147C2D1C00350BB3 /* Resources */,
+				A5FA5F6F147C2D1C00350BB3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5FA5F77147C2D1C00350BB3 /* PBXTargetDependency */,
+			);
+			name = Luhn_iOSTests;
+			productName = Luhn_iOSTests;
+			productReference = A5FA5F71147C2D1C00350BB3 /* Luhn_iOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A59FCE0D147B7E9F00E6CC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = SonsterMedia;
+			};
+			buildConfigurationList = A59FCE10147B7E9F00E6CC92 /* Build configuration list for PBXProject "LuhnyBin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A59FCE0B147B7E9F00E6CC92;
+			productRefGroup = A59FCE17147B7E9F00E6CC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A59FCE15147B7E9F00E6CC92 /* LuhnyBin */,
+				A5FA5F52147C2D1B00350BB3 /* Luhn_iOS */,
+				A5FA5F70147C2D1C00350BB3 /* Luhn_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FA5F51147C2D1B00350BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0509CB3147C6387001AA29A /* InfoPlist.strings in Resources */,
+				E0509CB4147C6387001AA29A /* MainStoryboard.storyboard in Resources */,
+				E0509CB5147C6387001AA29A /* americanexpress.png in Resources */,
+				E0509CB6147C6387001AA29A /* americanexpress@2x.png in Resources */,
+				E0509CB7147C6387001AA29A /* discover.png in Resources */,
+				E0509CB8147C6387001AA29A /* discover@2x.png in Resources */,
+				E0509CB9147C6387001AA29A /* mastercard.png in Resources */,
+				E0509CBA147C6387001AA29A /* mastercard@2x.png in Resources */,
+				E0509CBB147C6387001AA29A /* visa.png in Resources */,
+				E0509CBC147C6387001AA29A /* visa@2x.png in Resources */,
+				E0509CBD147C6387001AA29A /* Luhn_iOS-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA5F6E147C2D1C00350BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0509C9A147C6373001AA29A /* InfoPlist.strings in Resources */,
+				E0509C9B147C6373001AA29A /* Luhn_iOSTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5FA5F6F147C2D1C00350BB3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59FCE12147B7E9F00E6CC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59FCE1E147B7E9F00E6CC92 /* main.m in Sources */,
+				E0509CC2147C63B4001AA29A /* CreditCardValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA5F4F147C2D1B00350BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0509CB2147C6387001AA29A /* AppDelegate.m in Sources */,
+				E0509CBE147C6387001AA29A /* main.m in Sources */,
+				E0509CBF147C6387001AA29A /* ViewController.m in Sources */,
+				E0509CC3147C63B4001AA29A /* CreditCardValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA5F6C147C2D1C00350BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0509C9C147C6373001AA29A /* Luhn_iOSTests.m in Sources */,
+				E0509CC4147C63B4001AA29A /* CreditCardValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5FA5F77147C2D1C00350BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FA5F52147C2D1B00350BB3 /* Luhn_iOS */;
+			targetProxy = A5FA5F76147C2D1C00350BB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0509C95147C6373001AA29A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0509C96147C6373001AA29A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0509CA0147C6387001AA29A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0509CA1147C6387001AA29A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0509CA2147C6387001AA29A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0509CA3147C6387001AA29A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A59FCE23147B7E9F00E6CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A59FCE24147B7E9F00E6CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A59FCE26147B7E9F00E6CC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuhnyBin/LuhnyBin-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A59FCE27147B7E9F00E6CC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuhnyBin/LuhnyBin-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5FA5F81147C2D1C00350BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sonny Fazio (4Y9GNY9HFP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "Luhn_iOS/Luhn_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1CCD565-B1DC-4E57-871C-B9AF31369B9A";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5FA5F82147C2D1C00350BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sonny Fazio (4Y9GNY9HFP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "Luhn_iOS/Luhn_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1CCD565-B1DC-4E57-871C-B9AF31369B9A";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5FA5F83147C2D1C00350BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Luhn_iOS.app/Luhn_iOS";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "Luhn_iOSTests/Luhn_iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A5FA5F84147C2D1C00350BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Luhn_iOS.app/Luhn_iOS";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "Luhn_iOSTests/Luhn_iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A59FCE10147B7E9F00E6CC92 /* Build configuration list for PBXProject "LuhnyBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59FCE23147B7E9F00E6CC92 /* Debug */,
+				A59FCE24147B7E9F00E6CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59FCE25147B7E9F00E6CC92 /* Build configuration list for PBXNativeTarget "LuhnyBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59FCE26147B7E9F00E6CC92 /* Debug */,
+				A59FCE27147B7E9F00E6CC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FA5F85147C2D1C00350BB3 /* Build configuration list for PBXNativeTarget "Luhn_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FA5F81147C2D1C00350BB3 /* Debug */,
+				A5FA5F82147C2D1C00350BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FA5F86147C2D1C00350BB3 /* Build configuration list for PBXNativeTarget "Luhn_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FA5F83147C2D1C00350BB3 /* Debug */,
+				A5FA5F84147C2D1C00350BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A59FCE0D147B7E9F00E6CC92 /* Project object */;
+}
