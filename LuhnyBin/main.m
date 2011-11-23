@@ -18,8 +18,6 @@ int main (int argc, const char * argv[])
     
     CreditCardValidation *cc = [[CreditCardValidation alloc]init];
 	
-	NSLog(@"%@",[cc reverseString:@"Hello"]);
-	
 	
      if ([cc validateCard:@"5570691909608312"])
      {
