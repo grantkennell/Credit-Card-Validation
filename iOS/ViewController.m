@@ -23,7 +23,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self                                                                       action:@selector(dismissKeyboard)];  
+	[self.view addGestureRecognizer:tap]; 
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)dismissKeyboard{
+	[cc_field resignFirstResponder];
+	
 }
 
 - (void)viewDidUnload
@@ -95,6 +102,12 @@
         [alert show];  
         
     }
+}
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+	[textField resignFirstResponder];
+	return YES;
 }
 
 

@@ -10,18 +10,13 @@
 		A59FCE1B147B7E9F00E6CC92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */; };
 		A59FCE1E147B7E9F00E6CC92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A59FCE1D147B7E9F00E6CC92 /* main.m */; };
 		A59FCE22147B7E9F00E6CC92 /* LuhnyBin.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A59FCE21147B7E9F00E6CC92 /* LuhnyBin.1 */; };
-		A5FA5F56147C2D1B00350BB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F55147C2D1B00350BB3 /* UIKit.framework */; };
 		A5FA5F57147C2D1B00350BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */; };
-		A5FA5F59147C2D1B00350BB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F58147C2D1B00350BB3 /* CoreGraphics.framework */; };
 		A5FA5F73147C2D1C00350BB3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F72147C2D1C00350BB3 /* SenTestingKit.framework */; };
-		A5FA5F74147C2D1C00350BB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FA5F55147C2D1B00350BB3 /* UIKit.framework */; };
 		A5FA5F75147C2D1C00350BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */; };
 		E0509C9A147C6373001AA29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0509C95147C6373001AA29A /* InfoPlist.strings */; };
-		E0509C9B147C6373001AA29A /* Luhn_iOSTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0509C97147C6373001AA29A /* Luhn_iOSTests-Info.plist */; };
 		E0509C9C147C6373001AA29A /* Luhn_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509C99147C6373001AA29A /* Luhn_iOSTests.m */; };
 		E0509CB2147C6387001AA29A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509C9F147C6387001AA29A /* AppDelegate.m */; };
 		E0509CB3147C6387001AA29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA0147C6387001AA29A /* InfoPlist.strings */; };
-		E0509CB4147C6387001AA29A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA2147C6387001AA29A /* MainStoryboard.storyboard */; };
 		E0509CB5147C6387001AA29A /* americanexpress.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA5147C6387001AA29A /* americanexpress.png */; };
 		E0509CB6147C6387001AA29A /* americanexpress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA6147C6387001AA29A /* americanexpress@2x.png */; };
 		E0509CB7147C6387001AA29A /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CA7147C6387001AA29A /* discover.png */; };
@@ -30,12 +25,13 @@
 		E0509CBA147C6387001AA29A /* mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAA147C6387001AA29A /* mastercard@2x.png */; };
 		E0509CBB147C6387001AA29A /* visa.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAB147C6387001AA29A /* visa.png */; };
 		E0509CBC147C6387001AA29A /* visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAC147C6387001AA29A /* visa@2x.png */; };
-		E0509CBD147C6387001AA29A /* Luhn_iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0509CAD147C6387001AA29A /* Luhn_iOS-Info.plist */; };
 		E0509CBE147C6387001AA29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CAF147C6387001AA29A /* main.m */; };
 		E0509CBF147C6387001AA29A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CB1147C6387001AA29A /* ViewController.m */; };
 		E0509CC2147C63B4001AA29A /* CreditCardValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CC1147C63B4001AA29A /* CreditCardValidation.m */; };
 		E0509CC3147C63B4001AA29A /* CreditCardValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CC1147C63B4001AA29A /* CreditCardValidation.m */; };
-		E0509CC4147C63B4001AA29A /* CreditCardValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0509CC1147C63B4001AA29A /* CreditCardValidation.m */; };
+		E07478C9147CCA0400F9FAFA /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07478C7147CCA0400F9FAFA /* MainStoryBoard.storyboard */; };
+		E07478CB147CCCDA00F9FAFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07478CA147CCCDA00F9FAFA /* UIKit.framework */; };
+		E07478CD147CCCE100F9FAFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07478CC147CCCE100F9FAFA /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +64,6 @@
 		A59FCE20147B7E9F00E6CC92 /* LuhnyBin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuhnyBin-Prefix.pch"; sourceTree = "<group>"; };
 		A59FCE21147B7E9F00E6CC92 /* LuhnyBin.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LuhnyBin.1; sourceTree = "<group>"; };
 		A5FA5F53147C2D1B00350BB3 /* Luhn_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luhn_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5FA5F55147C2D1B00350BB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A5FA5F58147C2D1B00350BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		A5FA5F71147C2D1C00350BB3 /* Luhn_iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Luhn_iOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FA5F72147C2D1C00350BB3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E0509C96147C6373001AA29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -79,7 +73,6 @@
 		E0509C9E147C6387001AA29A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0509C9F147C6387001AA29A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0509CA1147C6387001AA29A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E0509CA3147C6387001AA29A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E0509CA5147C6387001AA29A /* americanexpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = americanexpress.png; sourceTree = "<group>"; };
 		E0509CA6147C6387001AA29A /* americanexpress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "americanexpress@2x.png"; sourceTree = "<group>"; };
 		E0509CA7147C6387001AA29A /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
@@ -88,13 +81,16 @@
 		E0509CAA147C6387001AA29A /* mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mastercard@2x.png"; sourceTree = "<group>"; };
 		E0509CAB147C6387001AA29A /* visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visa.png; sourceTree = "<group>"; };
 		E0509CAC147C6387001AA29A /* visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa@2x.png"; sourceTree = "<group>"; };
-		E0509CAD147C6387001AA29A /* Luhn_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Luhn_iOS-Info.plist"; sourceTree = "<group>"; };
-		E0509CAE147C6387001AA29A /* Luhn_iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luhn_iOS-Prefix.pch"; sourceTree = "<group>"; };
 		E0509CAF147C6387001AA29A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0509CB0147C6387001AA29A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0509CB1147C6387001AA29A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0509CC0147C63B4001AA29A /* CreditCardValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardValidation.h; sourceTree = "<group>"; };
 		E0509CC1147C63B4001AA29A /* CreditCardValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardValidation.m; sourceTree = "<group>"; };
+		E07478C8147CCA0400F9FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = iOS/en.lproj/MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		E07478CA147CCCDA00F9FAFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E07478CC147CCCE100F9FAFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E0E05B96147CC75F00B304DE /* Luhn_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Luhn_iOS-Info.plist"; sourceTree = "<group>"; };
+		E0EF6756147CC8F600274988 /* Luhn_iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luhn_iOS-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FA5F56147C2D1B00350BB3 /* UIKit.framework in Frameworks */,
+				E07478CD147CCCE100F9FAFA /* CoreGraphics.framework in Frameworks */,
+				E07478CB147CCCDA00F9FAFA /* UIKit.framework in Frameworks */,
 				A5FA5F57147C2D1B00350BB3 /* Foundation.framework in Frameworks */,
-				A5FA5F59147C2D1B00350BB3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +117,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5FA5F73147C2D1C00350BB3 /* SenTestingKit.framework in Frameworks */,
-				A5FA5F74147C2D1C00350BB3 /* UIKit.framework in Frameworks */,
 				A5FA5F75147C2D1C00350BB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,9 +150,9 @@
 		A59FCE19147B7E9F00E6CC92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E07478CC147CCCE100F9FAFA /* CoreGraphics.framework */,
+				E07478CA147CCCDA00F9FAFA /* UIKit.framework */,
 				A59FCE1A147B7E9F00E6CC92 /* Foundation.framework */,
-				A5FA5F55147C2D1B00350BB3 /* UIKit.framework */,
-				A5FA5F58147C2D1B00350BB3 /* CoreGraphics.framework */,
 				A5FA5F72147C2D1C00350BB3 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
@@ -197,12 +192,12 @@
 			isa = PBXGroup;
 			children = (
 				E0509C9E147C6387001AA29A /* AppDelegate.h */,
+				E07478C7147CCA0400F9FAFA /* MainStoryBoard.storyboard */,
 				E0509C9F147C6387001AA29A /* AppDelegate.m */,
+				E0E05B96147CC75F00B304DE /* Luhn_iOS-Info.plist */,
+				E0EF6756147CC8F600274988 /* Luhn_iOS-Prefix.pch */,
 				E0509CA0147C6387001AA29A /* InfoPlist.strings */,
-				E0509CA2147C6387001AA29A /* MainStoryboard.storyboard */,
 				E0509CA4147C6387001AA29A /* images */,
-				E0509CAD147C6387001AA29A /* Luhn_iOS-Info.plist */,
-				E0509CAE147C6387001AA29A /* Luhn_iOS-Prefix.pch */,
 				E0509CAF147C6387001AA29A /* main.m */,
 				E0509CB0147C6387001AA29A /* ViewController.h */,
 				E0509CB1147C6387001AA29A /* ViewController.m */,
@@ -315,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0509CB3147C6387001AA29A /* InfoPlist.strings in Resources */,
-				E0509CB4147C6387001AA29A /* MainStoryboard.storyboard in Resources */,
 				E0509CB5147C6387001AA29A /* americanexpress.png in Resources */,
 				E0509CB6147C6387001AA29A /* americanexpress@2x.png in Resources */,
 				E0509CB7147C6387001AA29A /* discover.png in Resources */,
@@ -324,7 +318,7 @@
 				E0509CBA147C6387001AA29A /* mastercard@2x.png in Resources */,
 				E0509CBB147C6387001AA29A /* visa.png in Resources */,
 				E0509CBC147C6387001AA29A /* visa@2x.png in Resources */,
-				E0509CBD147C6387001AA29A /* Luhn_iOS-Info.plist in Resources */,
+				E07478C9147CCA0400F9FAFA /* MainStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0509C9A147C6373001AA29A /* InfoPlist.strings in Resources */,
-				E0509C9B147C6373001AA29A /* Luhn_iOSTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +374,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0509C9C147C6373001AA29A /* Luhn_iOSTests.m in Sources */,
-				E0509CC4147C63B4001AA29A /* CreditCardValidation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,12 +404,13 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E0509CA2147C6387001AA29A /* MainStoryboard.storyboard */ = {
+		E07478C7147CCA0400F9FAFA /* MainStoryBoard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0509CA3147C6387001AA29A /* en */,
+				E07478C8147CCA0400F9FAFA /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = MainStoryBoard.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -497,8 +490,8 @@
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
-				INFOPLIST_FILE = "Luhn_iOS/Luhn_iOS-Info.plist";
+				GCC_PREFIX_HEADER = "iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "iOS/Luhn_iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1CCD565-B1DC-4E57-871C-B9AF31369B9A";
@@ -518,8 +511,8 @@
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
-				INFOPLIST_FILE = "Luhn_iOS/Luhn_iOS-Info.plist";
+				GCC_PREFIX_HEADER = "iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "iOS/Luhn_iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,8 +534,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
-				INFOPLIST_FILE = "Luhn_iOSTests/Luhn_iOSTests-Info.plist";
+				GCC_PREFIX_HEADER = "iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "iOS_Unit_Tests/Luhn_iOSTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -562,8 +555,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Luhn_iOS/Luhn_iOS-Prefix.pch";
-				INFOPLIST_FILE = "Luhn_iOSTests/Luhn_iOSTests-Info.plist";
+				GCC_PREFIX_HEADER = "iOS/Luhn_iOS-Prefix.pch";
+				INFOPLIST_FILE = "iOS_Unit_Tests/Luhn_iOSTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
